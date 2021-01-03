@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <!--Import icons-->
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Hamburger menu -->
+    <div class="hamburger-menu">
+        <i class="fas fa-bars open"></i>
+        <!-- <i class="ion-navicon open"></i> -->
+        <!-- <i class="ion-android-close close"></i> -->
+        <i class="fas fa-times close"></i>
+    </div>
+    <!-- /Hamburger menu -->
+
+    <!-- Navigation -->
+    <nav class="nav">
+        <!-- logo/intro -->
+        <div class="intro">
+            <h1 class="intro-heading">Michael S.</h1>
+            <div class="intro-img">
+                <img src="./assets/Mike-profile.png" alt="">
+            </div>
+            <h2 class="intro-subhead">Web Developer</h2>
+        </div>
+
+        <!-- site nav links -->
+        <ul class="nav-list">
+            <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#portfolio" class="nav-link">Portfolio</a></li>
+            <li class="nav-item"><a href="./assets/Mike IT Resume 2021.docx" class="nav-link" download="">Download Resume</a></li>
+        </ul>
+
+        <!-- social media links -->
+        <div class="social-media-wrapper">
+            <span>Follow me on</span>
+            <div class="social-media">
+                <a href="https://github.com/Renkai7" class="sm-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/miketspencer/" class="sm-link"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </nav>
+    <!-- /Navigation -->
+
+    <main class="main">
+        <!-- Hero Section -->
+        <section class="hero">
+            <h5 class="name-heading">Michael</h5>
+            <!-- <img class="hero-person-image" src="./assets/hero-background_overlay.png" alt=""> -->
+        </section>
+        
+        <!-- About section -->
+        <section class="about-me" id="about">
+            <div class="container">
+                <div class="heading-group">
+                    <span class="section-head-small">About</span>
+                    <h5 class="section-head-large">Who am I?</h5>
+                </div>
+                <div class="about-me-intro">
+                    <div class="intro-description">
+                        <p>
+                            <span>Hi, I'm Michael.</span> I am a junior front end developer who likes 
+                            creating projects that interests or challenges me. Currently I mostly build web pages and web apps but plan to
+                            dabble in game development as well as some 3D modeling for fun.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /About section -->
+        
+        <!-- Portfolio section -->
+        <section class="my-portfolio" id="portfolio">
+            <div class="container">
+                <!-- heading -->
+                <div class="heading-group">
+                    <h5 class="section-head-large">My Projects</h5>
+                </div>
+
+                <!-- List of Projects -->
+                <div class="grid">
+
+                    <!-- Breakfast Garden -->
+                    <div class="grid-item">          
+                        <img src="./assets/Breakfast-garden.PNG" alt="" class="portfolio-item-image">
+                        <!-- details of project -->
+                        <div class="portfolio-item-info">
+                            <h5 class="project-name">Breakfast Garden <span>01</span></h5>
+                            <span class="project-type">Brochure site</span>
+                            <!-- demo/source code buttons -->
+                            <div class="info-cta">
+                                <a href="Bistro Version 2/index.html" class="btn info-btn">Live Demo</a>
+                                <a href="https://github.com/Renkai7/Restaurant-website" class="btn info-btn">Source code</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Weather App -->
+                    <div class="grid-item">          
+                        <img src="./assets/Weather-app.PNG" alt="" class="portfolio-item-image">
+                        <!-- details of project -->
+                        <div class="portfolio-item-info">
+                            <h5 class="project-name">Weather App <span>02</span></h5>
+                            <span class="project-type">API App</span>
+                            <!-- demo/source code buttons -->
+                            <div class="info-cta">
+                                <a href="WeatherProject/index.html" class="btn info-btn">Live Demo</a>
+                                <a href="https://github.com/Renkai7/Weather-App" class="btn info-btn">Source code</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- E-Commerce Site -->
+                    <div class="grid-item">          
+                        <img src="./assets/Online-store.PNG" alt="" class="portfolio-item-image">
+                        <!-- details of project -->
+                        <div class="portfolio-item-info">
+                            <h5 class="project-name">Retail Store Site <span>03</span></h5>
+                            <span class="project-type">E-Commerce site</span>
+                            <!-- demo/source code buttons -->
+                            <div class="info-cta">
+                                <a href="Online Store version 2/index.html" class="btn info-btn">Live Demo</a>
+                                <a href="https://github.com/Renkai7/Online-Store-Website" class="btn info-btn">Source code</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- /Portfolio section -->
+
+        <script src="main.js"></script>
+    </main>
+</body>
+</html>

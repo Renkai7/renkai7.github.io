@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-wrap">
+        <header>
+            
+                <input type="text" autocomplete="off" name="zipcode" class="search-box" placeholder="Search by zip code...">                
+                
+            
+        </header>
+        <main>
+            <!-- <div class="switch-field">
+                <input class="unit-btn" type="radio" id="radio-one" name="switch-one" value="imperial" checked/>
+                <label for="radio-one"><span>°</span>F</label>
+                <input class="unit-btn" type="radio" id="radio-two" name="switch-one" value="metric" />
+                <label for="radio-two"><span>°</span>C</label>
+            </div> -->
+            <section class="location">
+                <div class="city">Northampton, GB</div>
+                <!-- <div class="date">Thursday 9 January 2020</div> -->
+            </section>
+            <div class="current">
+                <div class="temp">15<span>°</span>F</div>
+            </div>
+            
+            <!-- Hourly weather -->
+            <section class="daily">
+                <div class="weather-hour">
+                    <!-- Morning -->
+                    <h1>Morning</h1>
+                    <p class="morning"></p>
+                </div>
+                <div class="weather-hour">
+                    <!-- Evening/Afternoon -->
+                    <h1>Afternoon</h1>
+                    <p class="afternoon"></p>
+                </div>
+                <div class="weather-hour">
+                    <!-- Evening/Night -->
+                    <h1>Night</h1>
+                    <p class="night"></p>
+                </div>
+            </section>
+        </main>
+    </div>
+    
+    <script src="config.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>

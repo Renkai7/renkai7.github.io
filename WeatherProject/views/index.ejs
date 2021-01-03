@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="app-wrap">
+        <header>
+            <form action="/" method="POST">
+                <input type="text" autocomplete="off" name="zipcode" class="search-box" placeholder="Search by zip code...">               
+            </form>
+            
+        </header>
+        <main>
+            <section class="location">
+                <div class="city"><%= cityName %> </div>
+                <div class="date">Thursday 9 January 2020</div>
+            </section>
+            <div class="current">
+                <div class="temp"><%= temp %><span>°</span>F</div>
+            </div>
+            <div class="weather"><%= weatherDescription %></div>
+            <!-- <div class="hi-low">13°c / 16°c</div> -->
+        </main>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

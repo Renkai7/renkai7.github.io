@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Retro Gaming</title>
+    <!-- Boxicons -->
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav sect-grid">
+            <!-- Logo -->
+            <div>
+                <a href="#" class="nav-logo">Retro Gaming</a>
+            </div>
+
+            <!-- Navigation menu -->
+            <div class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="games.html" class="nav-link active">Video Games</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Consoles</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">Accessories</a></li>
+                </ul>
+            </div>
+
+            <!-- Sub-menu (Cart, Account, Menu toggle) -->
+            <div>
+                <i class="bx bx-cart nav-cart"></i>
+                <i class="bx bx-menu nav-toggle" id="nav-toggle"></i>
+            </div>
+        </nav>
+    </header>
+    <!-- /Header -->
+
+    <!-- Main -->
+    <main>
+        <!-- Video Game Section -->
+        <section class="section">
+            <div class="videogame-container sect-grid">
+                <!-- PlayStation -->
+                <div class="videogame-box">
+                    <img src="./assets/Playstation4.png" alt="" class="videogame-img">
+
+                    <div class="videogame-info">
+                        <h2 class="videogame-title">PlayStation</h2>
+                        <a href="games.html" class="videogame-view">Shop PlayStation Games</a>
+                    </div>
+                </div>
+
+                <!-- Xbox -->
+                <div class="videogame-box">                 
+
+                    <div class="videogame-info">
+                        <h2 class="videogame-title">Xbox</h2>
+                        <a href="games.html" class="videogame-view">Shop Xbox Games</a>
+                    </div>
+
+                    <img src="./assets/Xbox.png" alt="" class="videogame-img">
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- /Main -->
+
+    <!-- Main JS -->
+    <script src="./js/app.js"></script>
+</body>
+</html>
