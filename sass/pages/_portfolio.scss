@@ -12,7 +12,7 @@
 	}
 
 	&__img {
-		&--manage {
+		&--equalizer {
 			height: 28.8rem;
 			background-image: url("../images/portfolio/mobile/Equalizer-Mobile.png");
 			background-repeat: no-repeat;
@@ -28,9 +28,9 @@
 				background-image: url("../images/portfolio/desktop/Equalizer-Desktop.png");
 			}
 		}
-		&--bookmark {
+		&--rain-alert {
 			height: 28.8rem;
-			background-image: url("../images/portfolio/mobile/image-portfolio-bookmark.jpg");
+			background-image: url("../images/portfolio/mobile/Rain-Alert-Mobile.png");
 			background-repeat: no-repeat;
 
 			@media only screen and (min-width: $bp-medium) {
