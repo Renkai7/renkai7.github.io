@@ -523,14 +523,14 @@ ul {
 }
 .project__img--manage {
   height: 28.8rem;
-  background-image: url("../images/portfolio/mobile/image-portfolio-manage.jpg");
+  background-image: url("../images/portfolio/mobile/Equalizer-Mobile.png");
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 48em) {
   .project__img--manage {
     width: 33.9rem;
     height: 31.4rem;
-    background-image: url("../images/portfolio/tablet/image-portfolio-manage.jpg");
+    background-image: url("../images/portfolio/tablet/Equalizer-Tablet.png");
   }
 }
 @media only screen and (min-width: 62.5em) {
@@ -549,7 +549,7 @@ ul {
   .project__img--bookmark {
     width: 33.9rem;
     height: 31.4rem;
-    background-image: url("../images/portfolio/tablet/image-portfolio-bookmark.jpg");
+    background-image: url("../images/portfolio/tablet/Rain-Alert-Tablet.png");
   }
 }
 @media only screen and (min-width: 62.5em) {
@@ -568,7 +568,7 @@ ul {
   .project__img--insure {
     width: 33.9rem;
     height: 31.4rem;
-    background-image: url("../images/portfolio/tablet/image-portfolio-insure.jpg");
+    background-image: url("../images/portfolio/tablet/Password-Manager-Tablet.png");
   }
 }
 @media only screen and (min-width: 62.5em) {
@@ -587,7 +587,7 @@ ul {
   .project__img--fylo {
     width: 33.9rem;
     height: 31.4rem;
-    background-image: url("../images/portfolio/tablet/image-portfolio-fylo.jpg");
+    background-image: url("../images/portfolio/tablet/Quiz-App-Tablet.png");
   }
 }
 @media only screen and (min-width: 62.5em) {
