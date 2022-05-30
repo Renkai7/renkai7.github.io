@@ -537,7 +537,7 @@ ul {
   .project__img--manage {
     width: 54rem;
     height: 50rem;
-    background-image: url("../images/portfolio/desktop/image-portfolio-manage.jpg");
+    background-image: url("../images/portfolio/desktop/Equalizer-Desktop.png");
   }
 }
 .project__img--bookmark {
@@ -556,7 +556,7 @@ ul {
   .project__img--bookmark {
     width: 54rem;
     height: 50rem;
-    background-image: url("../images/portfolio/desktop/image-portfolio-bookmark.jpg");
+    background-image: url("../images/portfolio/desktop/Rain-Alert-Desktop.png");
   }
 }
 .project__img--insure {
@@ -575,7 +575,7 @@ ul {
   .project__img--insure {
     width: 54rem;
     height: 50rem;
-    background-image: url("../images/portfolio/desktop/image-portfolio-insure.jpg");
+    background-image: url("../images/portfolio/desktop/Password-Manager-Desktop.png");
   }
 }
 .project__img--fylo {
