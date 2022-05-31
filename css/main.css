@@ -559,39 +559,39 @@ ul {
     background-image: url("../images/portfolio/desktop/Rain-Alert-Desktop.png");
   }
 }
-.project__img--insure {
+.project__img--password-manager {
   height: 28.8rem;
-  background-image: url("../images/portfolio/mobile/image-portfolio-insure.jpg");
+  background-image: url("../images/portfolio/mobile/Password-Manager-Mobile.png");
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 48em) {
-  .project__img--insure {
+  .project__img--password-manager {
     width: 33.9rem;
     height: 31.4rem;
     background-image: url("../images/portfolio/tablet/Password-Manager-Tablet.png");
   }
 }
 @media only screen and (min-width: 62.5em) {
-  .project__img--insure {
+  .project__img--password-manager {
     width: 54rem;
     height: 50rem;
     background-image: url("../images/portfolio/desktop/Password-Manager-Desktop.png");
   }
 }
-.project__img--fylo {
+.project__img--quiz-app {
   height: 28.8rem;
-  background-image: url("../images/portfolio/mobile/image-portfolio-fylo.jpg");
+  background-image: url("../images/portfolio/mobile/Quiz-App-Mobile.png");
   background-repeat: no-repeat;
 }
 @media only screen and (min-width: 48em) {
-  .project__img--fylo {
+  .project__img--quiz-app {
     width: 33.9rem;
     height: 31.4rem;
     background-image: url("../images/portfolio/tablet/Quiz-App-Tablet.png");
   }
 }
 @media only screen and (min-width: 62.5em) {
-  .project__img--fylo {
+  .project__img--quiz-app {
     width: 54rem;
     height: 50rem;
     background-image: url("../images/portfolio/desktop/Quiz-App-Desktop.png");
